@@ -4,7 +4,7 @@ class UrlMappings {
         "/monitor"(controller: "monitor")
 
         // Apps - Redirect mappings
-        "/$base/app/preview"(view:"/index") {
+        /*"/$base/**"(view:"/index") {
         	constraints {
                 base matches: /(app|mobile|tab|web)/
             }
@@ -15,6 +15,15 @@ class UrlMappings {
         }
 
         // Apps
+        "/contest/**"(view:"/index") {
+            logoHidden = true
+        }
+        "/$base/contest/**"(view:"/index") {
+            constraints {
+                base matches: /(app|mobile|tab|web)/
+            }
+            logoHidden = true
+        }
         "/contest/**"(view:"/index") {
             logoHidden = true
         }
@@ -65,10 +74,10 @@ class UrlMappings {
         }
         "/video/**"(view:"/index") {
             logoHidden = true
-        }
+        }*/
 
        	// Catch all mapping
-        "/**"(view:"/index")
+        "/**"(controller: "maintenance")
         "500"(view:'/error')
 	}
 }
