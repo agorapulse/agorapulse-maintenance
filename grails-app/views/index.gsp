@@ -1,8 +1,8 @@
 <header>
     <h1>Under maintenance</h1>
     <p class="lead">
-    	We're sorry, but the application his under maintenance.<br />
-    	Please come back later...
+    	We're sorry, this app is undergoing maintenance.<br />
+    	Thanks for your patience, please come back later...
     </p>
 </header>
 
