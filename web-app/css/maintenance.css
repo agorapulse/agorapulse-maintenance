@@ -1,0 +1,42 @@
+/* TODO to put in Agorapulse theme bootswatch.less ??? (when migrating to Bootstrap V3) */
+body {
+    padding-top: 42px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+h1 {
+    font-family: 'allerBold', Arial, Helvetica, sans-serif;
+}
+
+/* Auth page */
+body.controller-auth h1 {
+    margin-bottom: 20px;
+}
+body.controller-auth header {
+    margin-bottom: 60px;
+    margin-top: 43px;
+}
+body.controller-auth footer {
+    margin-top: 60px;
+}
+
+/* WWW layout */
+body.www-layout {
+    padding-top: 0;
+}
+body.www-layout #navBar .navbar-container {
+    margin: 0 auto;
+    width: 940px;
+}
+body.www-layout #navBar .navbar-container .logo {
+    background-image: url("http://cdn.agorapulse.com/images/agorapulse-logo.png");
+    position: absolute;
+    top: 26px;
+    height: 38px;
+    width: 179px;
+}
+body.www-layout .navbar .navbar-inner {
+    min-height: 85px;
+}
+body.www-layout .container {
+    width: 940px;
+}
