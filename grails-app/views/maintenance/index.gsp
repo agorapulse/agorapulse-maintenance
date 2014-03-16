@@ -17,8 +17,12 @@
                 We're sorry, this app is undergoing maintenance.<br />
                 Thanks for your patience, please come back later...
             </p>
+            <g:if test="${!logoHidden}">
+                <p>
+                    <g:render template="status"/>
+                </p>
+            </g:if>
         </header>
-
         <footer>
             <hr/>
         </footer>
