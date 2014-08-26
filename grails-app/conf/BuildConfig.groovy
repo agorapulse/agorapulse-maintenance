@@ -47,7 +47,7 @@ grails.project.dependency.resolution = {
 
     plugins {
         // plugins for the build system only
-        build ":tomcat:7.0.42"
+        build ":tomcat:7.0.54"
 
         runtime ":jquery:1.10.2"
         runtime ":resources:1.2.1"
