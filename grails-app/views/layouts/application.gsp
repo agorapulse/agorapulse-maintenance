@@ -3,14 +3,12 @@
     <title><g:layoutTitle default="Under maintenance..."/></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <g:layoutHead />
-    <r:require module="application"/>
-    <r:layoutResources/>
+    <asset:stylesheet href="maintenance.css"/>
 </head>
 
 <body class="controller-auth www-layout">
 
 <g:layoutBody/>
 
-<r:layoutResources />
 </body>
 </html>

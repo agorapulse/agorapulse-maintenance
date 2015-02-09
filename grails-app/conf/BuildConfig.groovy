@@ -46,11 +46,7 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        // plugins for the build system only
-        build ":tomcat:7.0.54"
-
-        runtime ":jquery:1.10.2"
-        runtime ":resources:1.2.1"
-        runtime ":yui-minify-resources:0.1.5"
+        build ":tomcat:8.0.15"
+        compile ':asset-pipeline:2.0.19'
     }
 }
