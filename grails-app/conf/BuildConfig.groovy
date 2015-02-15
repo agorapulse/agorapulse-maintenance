@@ -46,7 +46,7 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        build ":tomcat:8.0.18.1"
+        build ":tomcat:8.0.18.2"
         compile ':asset-pipeline:2.0.19'
     }
 }
