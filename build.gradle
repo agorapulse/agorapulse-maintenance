@@ -12,7 +12,7 @@ buildscript {
     }
 }
 
-version "0.1"
+version "0.2"
 group "agorapulse.maintenance"
 
 apply plugin:"eclipse"
@@ -68,6 +68,12 @@ dependencies {
 bootRun {
     jvmArgs('-Dspring.output.ansi.enabled=always')
     addResources = true
+}
+
+war {
+    from('src/main/eb/.ebextensions') {
+        into('.ebextensions')
+    }
 }
 
 webdriverBinaries {
